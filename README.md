@@ -2,6 +2,10 @@
 
 This library creates a material-ui datable based on JSON parameters
 
+## Example
+
+![alt text](http://url/to/img.png)
+
 ## Installation
 
 Copy the files src/* on your proyect
