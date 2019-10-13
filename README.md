@@ -4,7 +4,7 @@ This library creates a material-ui datable based on JSON parameters
 
 ## Example
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/juanbjs/ReactMaterial-UIDatatable.JS/blob/master/MaterialUIDatatbale.png)
 
 ## Installation
 
