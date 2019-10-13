@@ -85,6 +85,23 @@ componentDidMount() {
 />
 ```
 
+In case you need to add a component in the data table, just add the component in JSON data like this
+
+```json
+  {
+    columna1: '123',
+    columna2: 'Texto de prueba',
+    columna3: '1.132.654',
+    columna4: 'Texto de prueba 2',
+    columna5: <Button
+                title="Detalle"
+                onClick={() => console.log("Evento Click desde boton dentro del data table")}
+              />,
+  }
+```
+
+![alt text](https://github.com/juanbjs/ReactMaterial-UIDatatable.JS/blob/master/MaterialUIDatatbale-AddComponent.png)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
