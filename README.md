@@ -68,6 +68,23 @@ componentDidMount() {
 }
 ```
 
+```html
+// this is an example for implementation
+// rows, are the rows of the data table
+// rowsProperties, are columns of the data table
+// exportFileName, is the name of the file to download
+// exportData, is a flag, show or hide the export button
+// onDobleClickRowSelected, is a double click action function
+<Table
+  rows={this.state.data}
+  rowsProperties={this.state.rowsProperties}
+  title=""
+  exportFileName={"Documento prueba"}
+  exportData={true}
+  onDobleClickRowSelected={this.onDobleClickRowSelected}
+/>
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
