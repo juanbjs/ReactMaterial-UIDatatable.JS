@@ -17,7 +17,7 @@ import { Table } from './widget'
 
 // Initialize the state of the component with rowsProperties
 // in this parameter you put the columns of the data table
-// tag: is the name of the column
+// label: is the name of the column
 // id: is the key in the rowData variable
 constructor() {
   super();
