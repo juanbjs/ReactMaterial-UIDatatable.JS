@@ -1,0 +1,1 @@
+export { MaterialButton as Button } from './material-button';

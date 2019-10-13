@@ -1,0 +1,85 @@
+{
+  "name": "reactmaterial-uidatatable.js",
+  "version": "1.0.0",
+  "description": "React and Material-UI proyect, dinamic datatable load data ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanbjs/ReactMaterial-UIDatatable.JS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "REACTJS",
+    "Material-UI",
+    "JS"
+  ],
+  "author": "Juan Zarate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanbjs/ReactMaterial-UIDatatable.JS/issues"
+  },
+  "homepage": "https://github.com/juanbjs/ReactMaterial-UIDatatable.JS#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.5.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-node": "^10.0.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "style-loader": "^1.0.0"
+  },
+  "scripts": {
+    "coverage": "jest --coverage --runInBand --verbose",
+    "eslint": "eslint src/*.js --ignore-pattern \"node_modules/\"",
+    "start": "react-scripts start",
+    "build": "react-scripts buildz",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "node",
+      "jest"
+    ],
+    "env": {
+      "jest/globals": true,
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2018
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
